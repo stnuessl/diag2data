@@ -1,0 +1,131 @@
+[
+    {
+        "Path": "src/lib/util/filesystem.c",
+        "Line": "59",
+        "Column": "9",
+        "Severity": "warning",
+        "Message": "\u2018readdir_r\u2019 is deprecated",
+        "Diagnostic": "-Wdeprecated-declarations"
+    },
+    {
+        "Path": "/usr/include/dirent.h",
+        "Line": "185",
+        "Column": "12",
+        "Severity": "note",
+        "Message": "declared here",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "src/climpd/../shared/ipc.h",
+        "Line": "37",
+        "Column": "21",
+        "Severity": "warning",
+        "Message": "no newline at end of file",
+        "Diagnostic": "-Wnewline-eof"
+    },
+    {
+        "Path": "src/climpd/core/audio-player/gst-engine.c",
+        "Line": "412",
+        "Column": "16",
+        "Severity": "warning",
+        "Message": "implicit conversion from enumeration type 'const GstState' to different enumeration type 'enum gst_engine_state'",
+        "Diagnostic": "-Wenum-conversion"
+    },
+    {
+        "Path": "src/climp-discoverer/main.c",
+        "Line": "136",
+        "Column": "15",
+        "Severity": "warning",
+        "Message": "'readdir_r' is deprecated",
+        "Diagnostic": "-Wdeprecated-declarations"
+    },
+    {
+        "Path": "/usr/include/dirent.h",
+        "Line": "188",
+        "Column": "28",
+        "Severity": "note",
+        "Message": "'readdir_r' has been explicitly marked deprecated here",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/usr/include/sys/cdefs.h",
+        "Line": "510",
+        "Column": "51",
+        "Severity": "note",
+        "Message": "expanded from macro '__attribute_deprecated__'",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "28",
+        "Column": "38",
+        "Severity": "warning",
+        "Message": "function 'util::cl::operator<<' has a definition with different parameter names",
+        "Diagnostic": "readability-inconsistent-declaration-parameter-name"
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "55",
+        "Column": "27",
+        "Severity": "note",
+        "Message": "the definition seen here",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "28",
+        "Column": "38",
+        "Severity": "note",
+        "Message": "differing parameters are named here: ('Item'), in definition: ('X')",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "29",
+        "Column": "49",
+        "Severity": "warning",
+        "Message": "parameter 'Item' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions",
+        "Diagnostic": "readability-avoid-const-params-in-decls"
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "34",
+        "Column": "38",
+        "Severity": "warning",
+        "Message": "function 'util::cl::operator<<' has a definition with different parameter names",
+        "Diagnostic": "readability-inconsistent-declaration-parameter-name"
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "62",
+        "Column": "27",
+        "Severity": "note",
+        "Message": "the definition seen here",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "34",
+        "Column": "38",
+        "Severity": "note",
+        "Message": "differing parameters are named here: ('Item'), in definition: ('X')",
+        "Diagnostic": ""
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "35",
+        "Column": "49",
+        "Severity": "warning",
+        "Message": "parameter 'Item' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions",
+        "Diagnostic": "readability-avoid-const-params-in-decls"
+    },
+    {
+        "Path": "/home/bockler/Projects/mockgen/src/util/commandline.hpp",
+        "Line": "40",
+        "Column": "38",
+        "Severity": "warning",
+        "Message": "function 'util::cl::operator<<' has a definition with different parameter names",
+        "Diagnostic": "readability-inconsistent-declaration-parameter-name"
+    }
+]
+

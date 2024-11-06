@@ -1,0 +1,55 @@
+src/lib/util/filesystem.c: In function ‘remove_dir_entries’:
+src/lib/util/filesystem.c:59:9: warning: ‘readdir_r’ is deprecated [-Wdeprecated-declarations]
+   59 |         err = readdir_r(dir, &entry, &result);
+      |         ^~~
+In file included from src/lib/util/filesystem.c:28:
+/usr/include/dirent.h:185:12: note: declared here
+  185 | extern int readdir_r (DIR *__restrict __dirp,
+      |            ^~~~~~~~~
+In file included from src/climpd/main.c:40:
+src/climpd/../shared/ipc.h:37:21: warning: no newline at end of file [-Wnewline-eof]
+   37 | #endif /* _IPC_H_ */
+      |                     ^
+src/climpd/core/audio-player/gst-engine.c:412:16: warning: implicit conversion from enumeration type 'const GstState' to different enumeration type 'enum gst_engine_state' [-Wenum-conversion]
+  412 |     return en->gst_state;
+      |     ~~~~~~ ~~~~^~~~~~~~~
+src/climp-discoverer/main.c:136:15: warning: 'readdir_r' is deprecated [-Wdeprecated-declarations]
+  136 |         err = readdir_r(dir, &buf, &ent);
+      |               ^
+/usr/include/dirent.h:188:28: note: 'readdir_r' has been explicitly marked deprecated here
+  188 |      __nonnull ((1, 2, 3)) __attribute_deprecated__;
+      |                            ^
+/usr/include/sys/cdefs.h:510:51: note: expanded from macro '__attribute_deprecated__'
+  510 | # define __attribute_deprecated__ __attribute__ ((__deprecated__))
+      |                                                   ^
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:28:38: warning: function 'util::cl::operator<<' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+   28 |     friend inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS,
+      |                                      ^
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:55:27: note: the definition seen here
+   55 | inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS, const info X)
+      |                           ^
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:28:38: note: differing parameters are named here: ('Item'), in definition: ('X')
+   28 |     friend inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS,
+      |                                      ^
+   29 |                                                 const info Item);
+      |                                                            ~~~~
+      |                                                            X
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:29:49: warning: parameter 'Item' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions [readability-avoid-const-params-in-decls]
+   29 |                                                 const info Item);
+      |                                                 ^~~~~
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:34:38: warning: function 'util::cl::operator<<' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
+   34 |     friend inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS,
+      |                                      ^
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:62:27: note: the definition seen here
+   62 | inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS, const warning X)
+      |                           ^
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:34:38: note: differing parameters are named here: ('Item'), in definition: ('X')
+   34 |     friend inline llvm::raw_ostream &operator<<(llvm::raw_ostream &OS,
+      |                                      ^
+   35 |                                                 const warning Item);
+      |                                                               ~~~~
+      |                                                               X
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:35:49: warning: parameter 'Item' is const-qualified in the function declaration; const-qualification of parameters only has an effect in function definitions [readability-avoid-const-params-in-decls]
+   35 |                                                 const warning Item);
+      |                                                 ^~~~~
+/home/bockler/Projects/mockgen/src/util/commandline.hpp:40:38: warning: function 'util::cl::operator<<' has a definition with different parameter names [readability-inconsistent-declaration-parameter-name]
