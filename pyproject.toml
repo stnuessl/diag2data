@@ -1,0 +1,27 @@
+[project]
+name = "diag2data"
+version = "0.0.3"
+authors = [
+  { name="stnuessl" },
+]
+
+description = "Search parent directories for items matching specifiable names"
+readme = "README.rst"
+requires-python = ">=3.8"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Build Tools",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+homepage = "https://github.com/stnuessl/diag2data"
+issues = "https://github.com/stnuessl/diag2data/issues"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
